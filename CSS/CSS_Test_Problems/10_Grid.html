@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+            background-color: #f0f0f0;
+        }
+
+        .container{
+            background-color: #fff;
+            border: 2px solid #333;
+            margin-bottom: 20px;
+            padding: 10px;
+
+        }
+        .grid-container{
+            display: grid;
+            gap: 10px;
+            background-color: #ddd;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .grid-item{
+            background-color: #3498db;
+            color: white;
+            padding: 20px;
+            font-size: 18px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="grid-container"
+        style="
+        grid-template-columns: repeat(3,1fr);
+        
+        "
+        >
+            <div class="grid-item">1</div>
+            <div class="grid-item">2</div>
+            <div class="grid-item">3</div>
+            <div class="grid-item">4</div>
+            <div class="grid-item">5</div>
+            <div class="grid-item">6</div>
+            <div class="grid-item">7</div>
+            <div class="grid-item">8</div>
+            <div class="grid-item">9</div>
+        </div>
+
+
+
+
+    </div>
+</body>
+</html>
